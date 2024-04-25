@@ -14,3 +14,6 @@ Route::get('/about', function () {
 });
 
 //homework for contact route
+Route::get('/contact', function () {
+    return view('contact');
+});
